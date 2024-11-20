@@ -2,6 +2,11 @@
 using namespace std;
 
 int main() {
-	cout << "Hello, World!" << endl;
-	return 0;
+    int k;
+    cin >> k;
+    for (int i = 2; i <= 10; ++i) {
+        cout << k << " x " << i << " = " << k * i << endl;
+    }
+
+    return 0;
 }
