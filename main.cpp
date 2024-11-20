@@ -1,7 +1,16 @@
 #include <iostream>
-using namespace std;
 
 int main() {
-	cout << "Hello, World!" << endl;
-	return 0;
+    int n;
+
+    std::cout << "Enter a number: ";
+    std::cin >> n;
+
+    for (int i = 0; i <= n; ++i) {
+        std::cout << i << " ";
+    }
+
+    std::cout << std::endl;
+
+    return 0;
 }
