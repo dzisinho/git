@@ -2,6 +2,12 @@
 using namespace std;
 
 int main() {
-	cout << "Hello, World!" << endl;
-	return 0;
+    int a, sum = 0;
+    cin >> a;
+    for (int i = a; i <= 500; ++i) {
+        sum += i;
+    }
+    cout << sum << endl;
+
+    return 0;
 }
